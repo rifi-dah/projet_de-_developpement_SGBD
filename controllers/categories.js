@@ -77,3 +77,4 @@ module.exports = (app, db) => {
     });
 
 };
+const response = await categCollection.findOneAndDelete({ _id });
